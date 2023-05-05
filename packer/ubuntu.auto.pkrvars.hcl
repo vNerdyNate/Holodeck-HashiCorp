@@ -1,0 +1,15 @@
+vsphere_server = "vcenter-mgmt.vcf.sddc.lab"
+vsphere_user = "administrator@vsphere.local"
+vsphere_password = "VMware123!"
+vsphere_template_name = "ubuntu2204_template"
+vsphere_folder = "Templates"
+vsphere_dc_name = "mgmt-datacenter-01"
+cluster = "mgmt-cluster-01"
+vsphere_host = "esxi-1.vcf.sddc.lab"
+vsphere_portgroup_name = "xregion-seg01"
+vsphere_datastore = "vcf-vsan"
+cpu_num = 4
+mem_size = 4096
+disk_size = 40960
+vmtools_iso_path = "[vcf-vsan] ISO/ubuntu.iso"
+vm_disk_controller_type = ["pvscsi"]
