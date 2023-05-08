@@ -13,7 +13,9 @@ From here you will clone this repository locally.
 
 Now change directory into that cloned repository.
 
-### Currently you will need to create a VM folder called, "Templates", a resource group called, "IaC", and enable DHCP for the nsx segment "xregion-seg01. More will come on these changes." ###
+## Currently you will need to create a VM folder called, "Templates", a resource group called, "IaC", and enable DHCP for the nsx segment "xregion-seg01. More will come on these changes." ##
+
+### Packer ###
 
 Change directory into the packer folder
 
