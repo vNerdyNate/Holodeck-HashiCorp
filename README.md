@@ -13,7 +13,7 @@ From here you will clone this repository locally.
 
 Now change directory into that cloned repository.
 
-# Currently you will need to create a VM folder called, "Templates", a resource group called, "IaC", and enable DHCP for the nsx segment "xregion-seg01. More will come on these changes." #
+#### Currently you will need to create a VM folder called, "Templates", a resource group called, "IaC", and enable DHCP for the nsx segment "xregion-seg01. More will come on these changes." ####
 
 ### Packer ###
 
@@ -27,7 +27,7 @@ This enables packer and downloads anything needed for the code.
 
        packer build .
 
-# Do not forget the "." at the end as this states to build from the files local to the directory #
+#### Do not forget the "." at the end as this states to build from the files local to the directory ####
 
 The Template build can take around 12 - 20 minutes to finalize. Once finalized you should have a "Ubuntu2024-template" template in the templates folder.
 
