@@ -1,4 +1,4 @@
-#Holodeck on Hashicorp
+### Holodeck on Hashicorp ###
 First steps are to install Chocolatey from its install page here:
 
 https://chocolatey.org/install
